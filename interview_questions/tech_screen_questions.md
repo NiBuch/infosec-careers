@@ -22,8 +22,9 @@ Remember that each digit in the permissions corresponds to the `owner`, `group`,
 in Linux. The individual numbers are the decimal representation of the permissions granted to that user 
 group, where 'Read', 'Write', and 'Execute' correspond to the high-order, middle, and low-order bits, 
 respectively. 
-For `chmod 765`:
-- `owner` has permissions `7`, or Read, Write, and Execute
-- `group` has permissions `6`, or Read and Write
-- `all users` have permissions `5`, or Read and Execute
+    
+...For `chmod 765`:
+...- `owner` has permissions `7`, or Read, Write, and Execute
+...- `group` has permissions `6`, or Read and Write
+...- `all users` have permissions `5`, or Read and Execute
 
