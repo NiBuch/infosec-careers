@@ -45,7 +45,7 @@ respectively. Definitions can be found for others in [the RFC2616
 specification](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html).
 
    `HEAD` is another request method often seen in the wild, though not nearly as common as `GET` or `POST`. 
-It's function is the same as `GET`, except the standards require the server to not return a message body in 
-the response. Instead, the server only sends back metadata surrouding the requested resource. `HEAD` is often 
-used in requests with remote exploits, as a means of bypassing IDS and filters that only screen `GET` or 
+Its function is the same as `GET`, except the standards require the server to not return a message body in 
+the response. Instead, the server only sends back metadata surrouding the requested resource. `HEAD` is sometimes 
+used in requests with remote exploits, as a means of bypassing IDSs and filters that only screen `GET` or 
 `POST` requests.
