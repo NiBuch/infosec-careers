@@ -27,6 +27,36 @@ ports and their common protocols. Some major ones to remember are:
    tcp/80   | `http`
    tcp/443  | `https`
 
++ **What is the difference between TCP and UDP connections?**
+
+    They're almost polar opposites. Some of the key differences:
+
+    TCP                 | UDP
+    ------------------- | --------------
+    Connection-oriented | Connectionless
+    Data stream         | Series of separate datagrams
+    Packets are ordered, and rearranged to be in-order | Packets are treated as independent. Applications handle ordering 
+    Error Correction    | No Error Correction
+    Flow Control        | No Flow Control
+    Lots of overhead    | No overhead
+    High latency        | Low latency
+    Used commonly for FTP, SSH, Telnet, HTTP | Used commonly for DNS, VOIP, P2P filesharing 
+
++ **Explain the TCP 3-way handshake and 4-way teardown process.**
+
+    TCP, being connection-oriented, uses a 3-way handshake to begin a session with a remote server. The steps 
+are as follows:
+
+    + `SYN` - Client sends a TCP packet with the SYN flag set.
+    + `SYN ACK` - Server responds with a TCP packet that has both the SYN and ACK flags set.
+    + `ACK` - Client acknowledges the server's response by sending a TCP packet with only the ACK flag set.
+
+    Connection termination/teardown is similar, but a 4-way handshake instead:
+
+    + `FIN` - Client sends a TCP packet with the FIN flag set.
+    + `ACK` - Server responds with a TCP packet with the ACK flag set.
+    + `FIN` - Server sends a separate TCP packet with the FIN flag set when it's ready to end the connection.
+    + `ACK` - Client responds with a TCP packet that has the ACK flag set. The connection is now terminated.
 
 ======
 #### DNS
