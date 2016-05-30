@@ -46,7 +46,7 @@ into a talking point:
 analyses on the password entropy."
     + "Definitely that CVE from last week. It's been pretty easy to exploit 
 in my test environments, and it's gonna be hard to write a signature for."
-    + "The new version of ExampleCrypt. I used to only see if delivered by malspam, but this week, I've started seeing it delivered by Angler." 
+    + "The new version of ExampleCrypt. I used to only see it delivered by malspam, but this week, I've started seeing it delivered by Angler." 
 
 + **Suppose you find a vulnerability in someone's website, application, etc. How do you go about getting it 
 patched?**
