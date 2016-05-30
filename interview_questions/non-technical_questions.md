@@ -40,9 +40,13 @@ HackForums, however, is a good way to paint yourself as juvenile and not fit for
 
     There's not really a right or wrong headline here, as long as you have one and it's current. If you can, 
 try to spin it 
-into a talking point: "That Example, LLC breach was pretty big. I got the dump, and have been doing some 
-analyses on the password entropy." or "Definitely that CVE from last week. It's been pretty easy to exploit 
-in my test environments, and it's gonna be hard to write a signature for." 
+into a talking point: 
+
+    + "That Example, LLC breach was pretty big. I got the dump, and have been doing some 
+analyses on the password entropy."
+    + "Definitely that CVE from last week. It's been pretty easy to exploit 
+in my test environments, and it's gonna be hard to write a signature for."
+    + "The new version of ExampleCrypt. I used to only see if delivered by malspam, but this week, I've started seeing it delivered by Angler." 
 
 + **Suppose you find a vulnerability in someone's website, application, etc. How do you go about getting it 
 patched?**
