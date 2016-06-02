@@ -12,7 +12,7 @@ you an answer is incorrect, when you know it's right.
 ------
 
 + ##### How do you view a list of running processes in Linux?
-Most of the time, they're looking for `ps`, but will some will also accept `top`.
+Most of the time they're looking for `ps`, but some will also accept `top`.
 
 + ##### Where is a user's bash command history stored?
 In-memory until the user logs out, at which point it's written into `.bash_history` in the user's home 
