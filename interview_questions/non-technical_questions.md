@@ -68,7 +68,7 @@ automatically.
 
     A maturity question. The goal here is to list pros and cons rather than be biased towards one or the 
 other. Yes, 'open source' can mean more eyes on it, but 'open source' can also mean that a 
-professional developer, a college sophomore, and Russian Speecial Forces can all contribute to it, sometimes 
+professional developer, a college sophomore, and Russian Special Forces can all contribute to it, sometimes 
 going unchecked. Proprietary software doesn't always get audited, but it often has better support, and 
 there's a quality you get when the software is built entirely by professionals. Generally speaking, you can't 
 tell a project's quality based solely on whether it's open or closed source.
