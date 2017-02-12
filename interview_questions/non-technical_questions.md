@@ -12,6 +12,22 @@ your skills and confidence, not to go on a diatribe about how you Macs are super
 both because they're not open source.
 
 ------
+### Terminology
+------
+
++ **Explain the differences between a true positive, a false positive, a true negative, and a false negative.**
+
+    In the context of security events, *True* means that our alerting device is reporting a condition correctly while
+*False* means that the reported condition is incorrect. *Positive* means that our device is firing an alert, and
+*Negative* means that the system is not alerting on any activity. Putting these together produces the following 
+table:
+
+    |           | **Positive** | **Negative** |
+    |-----------|--------------|--------------|
+    | **True**  | An event occurred and alerts were generated. | No event occurred and no alert was generated. |
+    | **False** | No event occurred, but alerts were generated. | An event occurred, but not alert was generated. |
+
+------
 ### Industry Topics
 ------
 
