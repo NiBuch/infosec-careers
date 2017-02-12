@@ -27,6 +27,11 @@ table:
     | **True**  | An event occurred and alerts were generated. | No event occurred and no alert was generated. |
     | **False** | No event occurred, but alerts were generated. | An event occurred, but not alert was generated. |
 
+    **Note:** Sysadmins will often incorrectly say an alert is a false positive because their system is not 
+vulnerable to the detected exploit. The true/false positive/negative conditions are based on whether the alert
+was correctly generated, and not whether the alert is relevant. If the system was configured to alert
+on the event, the event occurred, and an alert was generated, the condition would be a true positive.
+
 ------
 ### Industry Topics
 ------
