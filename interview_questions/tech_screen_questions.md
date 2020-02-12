@@ -29,3 +29,17 @@ privileges different permission values grant.
    - `owner` has permissions `7`, or Read, Write, and Execute  
    - `group` has permissions `6`, or Read and Write  
    - `all users` have permissions `5`, or Read and Execute
+
++ ##### Write a regular expression for an IPv4 address.
+
+   |-------------------------------|--------------------------|
+   | All (and only) valid IPv4 | `(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)` |
+   | RFC1918 Class A | `(10)(\.([2]([0-5][0-5]|[01234][6-9])|[1][0-9][0-9]|[1-9][0-9]|[0-9])){3}` |
+   | RFC1918 Class B | `(172)\.(1[6-9]|2[0-9]|3[0-1])(\.(2[0-4][0-9]|25[0-5]|[1][0-9][0-9]|[1-9][0-9]|[0-9])){2}` |
+   | RFC1918 Class C | `(192)\.(168)(\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])){2}` |
+   | All RFC1918 (prefixes) | `(^127\.)|(^10\.)|(^172\.1[6-9]\.)|(^172\.2[0-9]\.)|(^172\.3[0-1]\.)|(^192\.168\.)` |
+   |-------------------------------|--------------------------|
+
+Sometimes you can get away with `(?:[0-9]{1,3}\.){3}[0-9]{1,3}` but in an interview, it will often come off as too broad/lazy.
+
+

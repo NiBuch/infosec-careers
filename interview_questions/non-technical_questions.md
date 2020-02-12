@@ -25,11 +25,11 @@ table:
     |           | **Positive** | **Negative** |
     |-----------|--------------|--------------|
     | **True**  | An event occurred and alerts were generated. | No event occurred and no alert was generated. |
-    | **False** | No event occurred, but alerts were generated. | An event occurred, but not alert was generated. |
+    | **False** | No event occurred, but alerts were generated. | An event occurred, but no alert was generated. |
 
     **Note:** Sysadmins will often incorrectly say an alert is a false positive when their system is not 
 vulnerable to a detected exploit. The true/false positive/negative conditions are based on whether the alert
-was correctly generated, and not whether the alert is relevant. If the system was configured to alert
+was correctly generated, and not whether the alert was relevant. If the system was configured to alert
 on the event, the event occurred, and an alert was generated, the condition would be a true positive.
 
 ------
@@ -39,8 +39,7 @@ on the event, the event occurred, and an alert was generated, the condition woul
 + **Where do you get your security news?**
 
     There are a huge number of places to get security news, but not all are created equal. Vendor blogs often 
-have excellent write-ups for malware and emerging threats, while sources like [Krebs on 
-Security](http://krebsonsecurity.com/), [The Register](http://www.theregister.co.uk/security/), [The Hacker 
+have excellent write-ups for malware and emerging threats, while sources like [The Register](http://www.theregister.co.uk/security/), [The Hacker 
 News](http://thehackernews.com/), and [Packet Storm Security](https://packetstormsecurity.com/news/) tend to 
 cover new discoveries, major events, and "softer" news that doesn't get as technical. [The New York 
 Times](http://www.nytimes.com/topic/subject/computer-security-cybersecurity), [Ars 
